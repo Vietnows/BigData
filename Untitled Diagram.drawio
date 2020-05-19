@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2020-05-19T20:14:37.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" version="13.1.2" etag="XUye_A2TUFL6aW9HH9D-" type="github"><diagram id="2Qg-P_6o8G9ULgXD7ABI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-19T21:21:14.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="xCEl4lMxAffEk49yjwaB" version="13.1.2" type="github">
+  <diagram id="2Qg-P_6o8G9ULgXD7ABI" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wn5eiukcLFlDM2O4amVj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-1" value="Data Sources-&lt;br&gt;Csv&#39;s&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wn5eiukcLFlDM2O4amVj-3" target="Wn5eiukcLFlDM2O4amVj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-3" value="Data Storage&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;HDFS&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wn5eiukcLFlDM2O4amVj-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wn5eiukcLFlDM2O4amVj-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="455" y="130" />
+              <mxPoint x="455" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-4" value="Analytical Data Store -&amp;nbsp;&lt;br&gt;HIVE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-6" value="Orquestração - SQOOP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-8" value="Analytics e Reporting-&amp;nbsp;&lt;br&gt;Tableau/Qlik view/ Power BI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="30" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wn5eiukcLFlDM2O4amVj-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Wn5eiukcLFlDM2O4amVj-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn5eiukcLFlDM2O4amVj-11" value="Machine Learning -&amp;nbsp;&lt;br&gt;Python / R&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="150" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
